@@ -10,5 +10,9 @@ An easy-to-use DevTool utility for re-initializing the Chrome Dinosaur game by b
 
 <figure>
   <img src="Content/Assets/Example1.png" alt="First Example" width="200" height="150">
-  <figcaption>Go to the "More Options" drop-down menu</figcaption>
+  <figcaption>Go to the 3 dots drop-down menu</figcaption>
+</figure>
+<figure>
+  <img src="Content/Assets/Example2.png" alt="First Example" width="200" height="150">
+  <figcaption>Go to "More Options" and select "Developer Tools"</figcaption>
 </figure>
