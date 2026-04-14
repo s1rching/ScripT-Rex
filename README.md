@@ -13,7 +13,7 @@ Go to the 3 dots drop-down menu
 Go to "More Options" and select "Developer Tools"
 
 <img src="Content/Assets/Example2.png" alt="First Example" width="400" height="300">
-3. Go to the console tab in dev tools and paste in the following code:
+3. Go to the console tab in devtools and paste in the following code:
 
 ```
 delete loadTimeData.data_["disabledEasterEgg"];
