@@ -5,4 +5,4 @@ An easy-to-use DevTool utility for re-initializing the Chrome Dinosaur game by b
 2. Open devtools
    * Press ctrl+shift+i
      OR
-   * ![Alt text](Content/Assets/Example1.png
+   * <img src="Content/Assets/Example1.png" alt="First Example" width="400" height="300">
