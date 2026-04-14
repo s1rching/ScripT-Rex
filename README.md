@@ -8,7 +8,7 @@ An easy-to-use DevTool utility for re-initializing the Chrome Dinosaur game by b
      OR
 
 
-<figure>
+   * <figure>
   <img src="Content/Assets/Example1.png" alt="First Example" width="200" height="150">
   <figcaption>Go to the 3 dots drop-down menu</figcaption>
 </figure>
