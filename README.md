@@ -18,6 +18,9 @@ An easy-to-use DevTool utility for re-initializing the Chrome Dinosaur game by b
 </figure>
 3. Go to the console tab in dev tools and paste in the following code:
 
+
+
+
 ```
 delete loadTimeData.data_["disabledEasterEgg"];
 Runner.prototype.isDisabled = () => false;
