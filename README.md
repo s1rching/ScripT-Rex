@@ -16,7 +16,18 @@ Go to "More Options" and select "Developer Tools"
 3. Go to the console tab in devtools and paste in the following code:
 
 ```
-delete loadTimeData.data_["disabledEasterEgg"];
+// 1. Remove the "disabled" flag
+delete loadTimeData.data_[ "disabledEasterEgg" ];
+
+// 2. Bypass the disabled check
 Runner.prototype.isDisabled = () => false;
-Runner.instance_ = null; 
+
+// 3. Clear any existing instances
+Runner.instance_ = null;
+
+// 4. Hide the "disabled by owner" snackbar message
+const snackbar = document.querySelector(".snackbar");
+if (snackbar) snackbar.hidden = true;
+
+// 5. Start the game
 new Runner(".interstitial-wrapper");
